@@ -79,9 +79,9 @@ p { margin: 0; }
 }
 .top > .wrap { display: flex; align-items: center; justify-content: space-between; gap: 20px; height: 68px; }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-.brand-mark { width: 38px; height: 38px; border-radius: 10px; background: linear-gradient(145deg, var(--surf), var(--ocean)); display: grid; place-items: center; flex: none; }
-.brand-mark svg { width: 24px; height: 24px; }
+.brand-mark { width: 58px; height: 44px; display: block; flex: none; color: var(--hero-fg); }
 .brand-name { font-family: var(--display); font-weight: 800; font-size: 1.45rem; letter-spacing: 0.02em; text-transform: uppercase; line-height: 1; }
+.brand-name em { font-style: normal; color: var(--surf); }
 .brand-name small { display: block; font-family: var(--body); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.18em; color: var(--hero-muted); margin-top: 3px; }
 .nav { display: flex; gap: 24px; font-weight: 600; font-size: 0.92rem; }
 .nav a { text-decoration: none; color: var(--hero-muted); padding-block: 4px; border-bottom: 2px solid transparent; }
